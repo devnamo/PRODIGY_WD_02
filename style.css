@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    color: aliceblue;
+}
+
+.digit {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 0px 10px;
+    color: rgb(248, 243, 243);
+    cursor: pointer;
+}
+
+#start {
+    background-color: rgb(122, 214, 236);
+}
+
+#stop {
+    background-color: rgb(233, 48, 57);
+}
+
+#reset {
+    background-color: rgb(235, 248, 54);
+}
